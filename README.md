@@ -20,9 +20,11 @@ If you find the code useful for your research, please cite our paper:
 The core of our approach, the Temporal Gaussian Mixture (TGM) Layer can be found in [tgm.py](tgm.py).
 
 ![mg](/examples/mixture-of-gaussians.png?raw=true "mg")
+
 Multiple (M) temporal Gaussian distributions are learned, and they are combined with the learned soft attention weights to form the C temporal convolution filters. L is the temporal length of the filter.
 
 ![share](/examples/tgm-shared.png?raw=true "share")
+
 The kernels are applied to each input channel, C<sub>in</sub>, and a 1x1 convolution is applied to combine the C<sub>in</sub> input channels for each output channel, C<sub>out</sub>.
 
 # Activity Detection Experiments
