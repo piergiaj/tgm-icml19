@@ -80,6 +80,7 @@ We tested our models on the [MultiTHUMOS](http://ai.stanford.edu/~syyeung/everym
 
 # Example Results
 ![ex](/examples/res.png?raw=true "mg")
+
 The temporal regions classified as various basketball activities from a basketball game video in MultiTHUMOS. Our TMG layers greatly improve performance.
 
 ![gif](/examples/charades_example.gif?raw=true "example")
