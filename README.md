@@ -1,4 +1,4 @@
-# Learning Latent Super-Events to Detect Multiple Activities in Videos
+# Temporal Gaussian Mixture Layer for Videos
 
 This repository contains the code for our [ICML 2019 paper](https://arxiv.org/abs/1803.06316):
 
