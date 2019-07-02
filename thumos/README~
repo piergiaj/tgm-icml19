@@ -1,3 +1,0 @@
-Code to for the THUMOS'14 experiments in our paper (Table 6). This code is for reference, we do not plan to support this code as it is somewhat messy and cumbersone.
-
-The i3d directory contains a version of I3D modified and fine-tuned for the THUMOS dataset.
