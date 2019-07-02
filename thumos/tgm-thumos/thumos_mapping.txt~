@@ -1,0 +1,65 @@
+1 BaseballPitch 7
+2 BasketballDunk 9
+3 Billiards 12
+4 CleanAndJerk 21
+5 CliffDiving 22
+6 CricketBowling 23
+7 CricketShot 24
+8 Diving 26
+9 FrisbeeCatch 31
+10 GolfSwing 33
+11 HammerThrow 36
+12 HighJump 40
+13 JavelinThrow 45
+14 LongJump 51
+15 PoleVault 68
+16 Shotput 79
+17 SoccerPenalty 85
+18 TennisSwing 92
+19 ThrowDiscus 93
+20 VolleyballSpiking 97
+21 Walk
+22 Sit
+23 StandUp
+24 Stand
+25 Run
+26 Jump
+27 Fall
+28 PickUp
+29 Hug
+30 PatPerson
+31 HighFive
+32 FistPump
+33 ClapHands
+34 OneRaisedArmCelebrate
+35 TwoRaisedArmCelebrate
+36 Throw
+37 Drop
+38 OneHandedCatch
+39 TwoHandedCatch
+40 BodyRoll
+41 BodyTurn
+42 BodyBend
+43 BodyContract
+44 Squat
+45 BasketballDribble
+46 BasketballPass
+47 BasketballBlock
+48 BasketballShot
+49 BasketballGuard
+50 VolleyballSet
+51 VolleyballBump
+52 VolleyballBlock
+53 VolleyballServe
+54 WeightliftingClean
+55 WeightliftingJerk
+56 HammerThrowWindUp
+57 HammerThrowSpin
+58 HammerThrowRelease
+59 PoleVaultPlantPole
+60 ShotPutBend
+61 DiscusWindUp
+62 DiscusRelease
+63 TalkToCamera
+64 CloseUpTalkToCamera
+65 NoHuman

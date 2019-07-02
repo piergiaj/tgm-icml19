@@ -1,0 +1,45 @@
+Code to for the THUMOS'14 experiments in our paper (Table 6). This code is for reference, we do not plan to support this code as it is somewhat messy and cumbersone.
+
+The i3d directory contains a version of I3D modified and fine-tuned for the THUMOS dataset. It requires pytorch 0.4. It can be used to extract features at 25fps from the thumos videos.
+
+The tgm-thumos directory conatins our code/models that obtained 57.0 mAP @ 0.5 IoU on the THUMOS'14 dataset plus the matlab script for evaluation. This code requires Pytorch version 0.3.
+
+To run the code:
+This will run the pre-trained TGM models and get two-stream per-frame predictions:
+python train_model.py -train n -rgb_model_file models/tgmr -flow_model_file models/tgmf -gpu 0,1,2,3 -dataset multithumos
+
+For the baseline:
+python train_model.py -train n -rgb_model_file models/th_rgb.pt -flow_model_file models/th_flow.pt -gpu 0,1,2,3 -dataset multithumos
+
+
+The once those are run,
+python post_process.py
+will generate the thumos interval predictions, which are saved in the thumos eval directory as res.txt
+
+Then, running the matlab script gives (for the TGM model):
+
+>> [pr_all,ap_all,map]=TH14evalDet('res.txt','annotation','test',0.5);
+AP:0.662 at overlap 0.5 for BaseballPitch
+AP:0.636 at overlap 0.5 for BasketballDunk
+AP:0.357 at overlap 0.5 for Billiards
+AP:0.387 at overlap 0.5 for CleanAndJerk
+AP:0.680 at overlap 0.5 for CliffDiving
+AP:0.578 at overlap 0.5 for CricketBowling
+AP:0.407 at overlap 0.5 for CricketShot
+AP:0.677 at overlap 0.5 for Diving
+AP:0.507 at overlap 0.5 for FrisbeeCatch
+AP:0.342 at overlap 0.5 for GolfSwing
+AP:0.730 at overlap 0.5 for HammerThrow
+AP:0.776 at overlap 0.5 for HighJump
+AP:0.721 at overlap 0.5 for JavelinThrow
+AP:0.883 at overlap 0.5 for LongJump
+AP:0.418 at overlap 0.5 for PoleVault
+AP:0.478 at overlap 0.5 for Shotput
+AP:0.550 at overlap 0.5 for SoccerPenalty
+AP:0.464 at overlap 0.5 for TennisSwing
+AP:0.495 at overlap 0.5 for ThrowDiscus
+AP:0.665 at overlap 0.5 for VolleyballSpiking
+
+
+MAP: 0.570648
+

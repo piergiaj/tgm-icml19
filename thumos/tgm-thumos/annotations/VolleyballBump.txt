@@ -1,0 +1,15 @@
+video_test_0000426 106.00 107.00
+video_test_0000450 9.53 11.03
+video_test_0000723 21.97 22.33
+video_test_0001452 17.50 19.23
+video_test_0001452 39.23 42.90
+video_test_0001452 52.53 56.33
+video_test_0001452 26.00 27.00
+video_validation_0000981 9.00 10.00
+video_validation_0000981 16.17 17.00
+video_validation_0000981 18.47 19.07
+video_validation_0000981 23.37 23.83
+video_validation_0000981 34.17 35.00
+video_validation_0000982 3.33 3.50
+video_validation_0000984 15.20 16.50
+video_validation_0000985 37.13 45.77

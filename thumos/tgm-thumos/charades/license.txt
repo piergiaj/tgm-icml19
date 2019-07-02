@@ -1,0 +1,15 @@
+License for Non-Commercial Use
+
+If this software is redistributed, this license must be included. The term software includes any source files, documentation, executables, models, and data.
+
+This software and data is available for general use by academic or non-profit, or government-sponsored researchers.  It may also be used for evaluation purposes elsewhere.  This license does not grant the right to use this software or any derivation of it in a for-profit enterprise.  For commercial use, please contact The Allen Institute for Artificial Intelligence.  
+
+This license does not grant the right to modify and publicly release the data in any form.
+
+This license does not grant the right to distribute the data to a third party in any form.
+
+The subjects in this data should be treated with respect and dignity. This license only grants the right to publish short segments or still images in an academic publication where necessary to present examples, experimental results, or observations.
+
+This software comes with no warranty or guarantee of any kind.  By using this software, the user accepts full liability.
+
+The Allen Institute for Artificial Intelligence (C) 2016.
