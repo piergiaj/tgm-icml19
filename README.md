@@ -78,6 +78,22 @@ We tested our models on the [MultiTHUMOS](http://ai.stanford.edu/~syyeung/everym
 | I3D + Super-events [4] + 3 TGMs | **47.1** |
 
 
+### THUMOS
+
+|  Method | mAP (%) |
+| ------------- | ------------- |
+| R-C3D | 28.9 |
+| SSN | 29.1 |
+| TAL-Net [4] | 42.8 |
+| I3D | 43.5 |
+| I3D + Super-events | 47.8 |
+| I3D + 1 TGM | 45.2 |
+| I3D + 3 TGMs | 53.5 |
+| I3D + 3 TGMs + Super-events | **57.0** |
+
+
+
+
 # Example Results
 ![ex](/examples/res.png?raw=true "mg")
 
