@@ -80,7 +80,7 @@ We tested our models on the [MultiTHUMOS](http://ai.stanford.edu/~syyeung/everym
 
 ### THUMOS
 
-|  Method | mAP (%) |
+|  Method | mAP with IoU=0.5 |
 | ------------- | ------------- |
 | R-C3D | 28.9 |
 | SSN | 29.1 |
