@@ -221,7 +221,7 @@ def val_step(model, gpu, dataloader):
     return full_probs, epoch_loss
 
 
-model_f = models.get_hier2
+model_f = models.get_hier
 
 if __name__ == '__main__':
 
